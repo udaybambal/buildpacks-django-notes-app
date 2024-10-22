@@ -63,12 +63,6 @@ git clone https://github.com/udaybambal/buildpacks-django-notes-app.git
 cd node-todo-cicd
 ```
 #
-- Remove Dockerfile and docker-compose file to make sure we are not using it for building the image.
-```bash
-rm -rv Dockerfile
-rm -rv docker-compose.yaml
-```
-#
 - Run the following command to get the pack builder
 ```bash
 pack build suggest
